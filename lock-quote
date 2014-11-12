@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # lock-quote by Amory Meltzer
-# 
+# Stochastically change the lock screen quote in OSX from a quotes file
