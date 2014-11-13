@@ -9,5 +9,5 @@ quotefile=$DIR/lockscreen_quotes.txt
 jo=$(shuf < $quotefile | head -n 1)
 
 jo=$(echo "$jo" | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
-echo $jo
+#echo $jo
 defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$jo"
