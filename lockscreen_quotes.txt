@@ -1,6 +1,6 @@
 "Cleanliness might be next to godliness, but the demons of disease fight on the side with the denser population." - David Clark, Germs, Genes, and Civilization
 "If a man will begin with certainties, he shall end in doubts." - Francis Bacon
-"I am an American... first to knock, first admitted." - Saul Bellow
+"I am an American… first to knock, first admitted." - Saul Bellow
 "Nothing shocks me.  I'm a scientist." - Indiana Jones
 "I mistrust all frank and simple people, especially when their stories hold together" - Ernest Hemingway, The Sun Also Rises
 "'The funny thing is he's nice, too.  I like him.  But he's just so awful.'  'He can be damn nice.'  'I know it.  That's the terrible part.'" - Ernest Hemingway, The Sun Also Rises
@@ -11,7 +11,7 @@
 "We quarreled, and she brought up the subject of children again, but I convinced her they would be too young." - Woody Allen, Without Feathers
 "It's not that I'm afraid to die, I just don't want to be there when it happens." - Woody Allen, Without Feathers
 "On the plus side, death is one of the few things that can be done as easily lying down." - Woody Allen, Without Feathers
-"Money is not everything, but it is better than having one's health...  Money is better than Poverty, if only for financial reasons." - Woody Allen, Without Feathers
+"Money is not everything, but it is better than having one's health…  Money is better than Poverty, if only for financial reasons." - Woody Allen, Without Feathers
 "Madame, all stories, if continued far enough, end in death, and he is no true-story teller who would keep that from you." - Ernest Hemingway, Death In The Afternoon
 "Madame, it is always a mistake to know an author." - Ernest Hemingway, Death In The Afternoon
 "There's no limit to how complicated things can get on account of one thing leading to another." - E. B. White
@@ -19,14 +19,14 @@
 "When one is in town one amuses oneself.  When one is in the country one amuses other people.  It is excessively boring." - Oscar Wilde, The Importance Of Being Earnest
 "I really don't see anything romantic in proposing.  It is very romantic to be in love.  But there is nothing romantic about a definite proposal.  Why, one may be accepted.  One usually is, I believe.  Then the excitement is all over.  The very essence of romance is uncertainty.  If I ever get married, I'll certainly try to forget the fact." - Oscar Wilde, The Importance Of Being Earnest
 "It is absurd to have a hard-and-fast rule about what one should read and what one shouldn't.  More than half of modern culture depends on what one shouldn't read." - Oscar Wilde, The Importance Of Being Earnest
-"Oh!  I hope I am not [perfect].  It would leave no room for developments, and I intend to develop in many directions." - Oscar Wilde, The Importance Of Being Earnest
+"Oh!  I hope I am not perfect.  It would leave no room for developments, and I intend to develop in many directions." - Oscar Wilde, The Importance Of Being Earnest
 "You always want to argue about things."  "That is exactly what things were originally made for." - Oscar Wilde, The Importance Of Being Earnest
 "If I am occasionally a little over-dressed, I make up for it by being always immensely over-educated." - Oscar Wilde, The Importance Of Being Earnest
 "I never travel without my diary.  One should always have something sensational to read in the train." - Oscar Wilde, The Importance Of Being Earnest
 "Maybe I'll be able to later.  I can do nearly everything later." - Ernest Hemingway, Green Hills Of Africa
 "Then you are happy?"  "Except when I think of other people." - Ernest Hemingway, Green Hills Of Africa
 "One shot, meat.  Two shots, maybe.  Three shots, heap shit." - Ernest Hemingway, Green Hills Of Africa
-"No man is an Iland, intire of it self; every man is a peece of the Continent... any death diminishes me, because I am involved in Mankinde; And therefore never send to know for whom the bell tolls; It tolls for thee." - John Donne
+"No man is an Iland, intire of it self; every man is a peece of the Continent… any death diminishes me, because I am involved in Mankinde; And therefore never send to know for whom the bell tolls; It tolls for thee." - John Donne
 "Hay que tomar la muerte como si fuera aspirina." (You will have to take death as an aspirin.) - Ernest Hemingway, For Whom The Bell Tolls
 "Happiness, as you know, is a movable feast." - Ernest Hemingway, Across The River And Into The Trees
 "After all, sheets are sheets and some one has to change them, and some one has to wash them." - Ernest Hemingway, Across The River And Into The Trees
@@ -59,7 +59,7 @@
 "Death has to win only once, but life has to win every day.  And in the end death wins." - Roy Baumeister, Is There Anything Good About Men?
 "The herring is a lucky fish, of good health he is ensured.  For whenever he gets ill, immediately he's cured." - Mike Smylie, Herring: A History of the Silver Darlings
 "Inert antiques were all very well, but there was magic in old wine - a mysterious and wonderful alchemy in something that could live and change for two hundred years and still be drinkable." - Benjamin Wallace, The Billionaire's Vinegar
-"Tasting old wine is like making love to an old lady... It is possible.  It can even be enjoyable.  But it requires a little bit of imagination." - André Tchelistcheff
+"Tasting old wine is like making love to an old lady… It is possible.  It can even be enjoyable.  But it requires a little bit of imagination." - André Tchelistcheff
 "It is absurd to divide people into good and bad.  People are either charming or tedious." - Oscar Wilde, Lady Windermere's Fan
 "Good heavens! how marriage ruins a man!  It's as demoralizing as cigarettes, and far more expensive." - Oscar Wilde, Lady Windermere's Fan
 "No, we are all in the gutter, but some of us are looking at the stars." - Oscar Wilde, Lady Windermere's Fan
@@ -71,7 +71,7 @@
 "But even as the bike-sharing stations remain a source of dismay to some residents, they have served to illustrate a well-worn maxim of urban planning: If you build something, New Yorkers will find a way to lean on it." - New York Times
 "The older I grow, the less important the comma becomes.  Let the reader catch his own breath." - Elizabeth Clarkson Zwart
 "Perhaps history does not repeat itself exactly, but it is certainly prone to extended paraphrases." - New Yorker
-"'In vain above the greedy [fisherman] toils,' Ovid wrote, 'while with arts more exquisite the bass beguiles.'" - Paul Greenberg, Four Fish
+"'In vain above the greedy fisherman toils,' Ovid wrote, 'while with arts more exquisite the bass beguiles.'" - Paul Greenberg, Four Fish
 "Never get between a fat hog and a trough.  He'll run you over every time." - Paul Greenberg, Four Fish
 "In preparing for battle, I have found that planning is essential, but plans are useless." - Dwight D. Eisenhower
 "The man who bets his savings on a million-to-one shot is a moron whether the horse wins or not." - Sockatume
@@ -79,5 +79,5 @@
 "Hodie mini, cras tibi/Today it's me, tomorrow it will be you" - Von Elswich of New Sweden to Peter Stuyvesant of New Netherland
 "It would unleash a rain of violence, a storm that would swallow the place, ending the torment, ending things the way they ought to end, in good, quenching blood and fire." - Russel Shorto, The Island at the Center of the World
 "The universe is probably littered with the one-planet graves of cultures which made the sensible economic decision that there's no good reason to go into space--each discovered, studied, and remembered by the ones who made the irrational decision." - Randall Munroe
-"...living in New York means you get to treat the rest of the country like it's the kiddie table at cocktail party. 'Oh, Chicago? Go have a seat with Dallas and Denver over in the corner.'" - Drew Magary
-“A human is only happy if she has two, and everybody else has one.  And even then, she starts imagining three.” - Zach Weiner
+"…living in New York means you get to treat the rest of the country like it's the kiddie table at cocktail party. 'Oh, Chicago? Go have a seat with Dallas and Denver over in the corner.'" - Drew Magary
+"A human is only happy if she has two, and everybody else has one.  And even then, she starts imagining three." - Zach Weiner
