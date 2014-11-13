@@ -11,7 +11,7 @@
 "We quarreled, and she brought up the subject of children again, but I convinced her they would be too young." - Woody Allen, Without Feathers
 "It's not that I'm afraid to die, I just don't want to be there when it happens." - Woody Allen, Without Feathers
 "On the plus side, death is one of the few things that can be done as easily lying down." - Woody Allen, Without Feathers
-"Money is not everything, but it is better than having one's health…  Money is better than Poverty, if only for financial reasons." - Woody Allen, Without Feathers
+"Money is better than poverty, if only for financial reasons." - Woody Allen, Without Feathers
 "Madame, all stories, if continued far enough, end in death, and he is no true-story teller who would keep that from you." - Ernest Hemingway, Death In The Afternoon
 "Madame, it is always a mistake to know an author." - Ernest Hemingway, Death In The Afternoon
 "There's no limit to how complicated things can get on account of one thing leading to another." - E. B. White
@@ -27,7 +27,7 @@
 "Then you are happy?"  "Except when I think of other people." - Ernest Hemingway, Green Hills Of Africa
 "One shot, meat.  Two shots, maybe.  Three shots, heap shit." - Ernest Hemingway, Green Hills Of Africa
 "No man is an Iland, intire of it self; every man is a peece of the Continent… any death diminishes me, because I am involved in Mankinde; And therefore never send to know for whom the bell tolls; It tolls for thee." - John Donne
-"Hay que tomar la muerte como si fuera aspirina." (You will have to take death as an aspirin.) - Ernest Hemingway, For Whom The Bell Tolls
+"Hay que tomar la muerte como si fuera aspirina/You will have to take death as an aspirin" - Ernest Hemingway, For Whom The Bell Tolls
 "Happiness, as you know, is a movable feast." - Ernest Hemingway, Across The River And Into The Trees
 "After all, sheets are sheets and some one has to change them, and some one has to wash them." - Ernest Hemingway, Across The River And Into The Trees
 "He has aroused neither love, hate, dislike, fear nor suspicion.  Do you really want to know anything about him?" - Ernest Hemingway, Across The River And Into The Trees
@@ -79,5 +79,5 @@
 "Hodie mini, cras tibi/Today it's me, tomorrow it will be you" - Von Elswich of New Sweden to Peter Stuyvesant of New Netherland
 "It would unleash a rain of violence, a storm that would swallow the place, ending the torment, ending things the way they ought to end, in good, quenching blood and fire." - Russel Shorto, The Island at the Center of the World
 "The universe is probably littered with the one-planet graves of cultures which made the sensible economic decision that there's no good reason to go into space--each discovered, studied, and remembered by the ones who made the irrational decision." - Randall Munroe
-"…living in New York means you get to treat the rest of the country like it's the kiddie table at cocktail party. 'Oh, Chicago? Go have a seat with Dallas and Denver over in the corner.'" - Drew Magary
+"Living in New York means you get to treat the rest of the country like it's the kiddie table at cocktail party. 'Oh, Chicago? Go have a seat with Dallas and Denver over in the corner.'" - Drew Magary
 "A human is only happy if she has two, and everybody else has one.  And even then, she starts imagining three." - Zach Weiner
