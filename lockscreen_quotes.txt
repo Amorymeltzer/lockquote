@@ -5,7 +5,7 @@
 "I mistrust all frank and simple people, especially when their stories hold together." - Ernest Hemingway, The Sun Also Rises
 "'The funny thing is he's nice, too.  I like him.  But he's just so awful.'  'He can be damn nice.'  'I know it.  That's the terrible part.'" - Ernest Hemingway, The Sun Also Rises
 "'How did you go bankrupt?' Bill asked.  'Two ways,' Mike said.  'Gradually and then suddenly." - Ernest Hemingway, The Sun Also Rises
-"'The coward dies a thousand deaths, the brave but one?'  'Of course.  Who said it?'  'I don't know.'  'He was probably a coward,' she said.  'He knew a great deal about cowards but nothing about the brave.  The brave dies perhaps two thousand deaths if he's intelligent.  He simply doesn't mention them.'" - Ernest Hemingway, A Farewell To Arms
+"…The brave dies perhaps two thousand deaths if he's intelligent.  He simply doesn't mention them." - Ernest Hemingway, A Farewell To Arms
 "No, that is the great fallacy; the wisdom of old men.  They do not grow wise.  They grow careful." - Ernest Hemingway, A Farewell To Arms
 "Why does man Kill?  He kills for food.  And not only food: frequently there must be a beverage." - Woody Allen, Without Feathers
 "We quarreled, and she brought up the subject of children again, but I convinced her they would be too young." - Woody Allen, Without Feathers
@@ -17,7 +17,7 @@
 "There's no limit to how complicated things can get on account of one thing leading to another." - E. B. White
 "It turns out there is always an idiot around who doesn't think much about the thumb drive in their hand." - Military strategist
 "When one is in town one amuses oneself.  When one is in the country one amuses other people.  It is excessively boring." - Oscar Wilde, The Importance Of Being Earnest
-"I really don't see anything romantic in proposing.  It is very romantic to be in love.  But there is nothing romantic about a definite proposal.  Why, one may be accepted.  One usually is, I believe.  Then the excitement is all over.  The very essence of romance is uncertainty.  If I ever get married, I'll certainly try to forget the fact." - Oscar Wilde, The Importance Of Being Earnest
+"It is very romantic to be in love.  But there is nothing romantic about a definite proposal.  Why, one may be accepted.  One usually is, I believe.  Then the excitement is all over.  The very essence of romance is uncertainty.  If I ever get married, I'll certainly try to forget the fact." - Oscar Wilde, The Importance Of Being Earnest
 "It is absurd to have a hard-and-fast rule about what one should read and what one shouldn't.  More than half of modern culture depends on what one shouldn't read." - Oscar Wilde, The Importance Of Being Earnest
 "Oh!  I hope I am not perfect.  It would leave no room for developments, and I intend to develop in many directions." - Oscar Wilde, The Importance Of Being Earnest
 "You always want to argue about things."  "That is exactly what things were originally made for." - Oscar Wilde, The Importance Of Being Earnest
@@ -71,7 +71,7 @@
 "But even as the bike-sharing stations remain a source of dismay to some residents, they have served to illustrate a well-worn maxim of urban planning: If you build something, New Yorkers will find a way to lean on it." - Matt Flegenheimer, The New York Times
 "The older I grow, the less important the comma becomes.  Let the reader catch his own breath." - Elizabeth Clarkson Zwart
 "Perhaps history does not repeat itself exactly, but it is certainly prone to extended paraphrases." - Jelani Cobb, The New Yorker
-"'In vain above the greedy fisherman toils,' Ovid wrote, 'while with arts more exquisite the bass beguiles.'" - Paul Greenberg, Four Fish
+"In vain above the greedy fisherman toils while with arts more exquisite the bass beguiles." - Ovid
 "Never get between a fat hog and a trough.  He'll run you over every time." - Paul Greenberg, Four Fish
 "In preparing for battle, I have found that planning is essential, but plans are useless." - Dwight D. Eisenhower
 "The man who bets his savings on a million-to-one shot is a moron whether the horse wins or not." - Sockatume
