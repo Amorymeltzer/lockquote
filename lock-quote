@@ -2,12 +2,11 @@
 # lock-quote by Amory Meltzer
 # Stochastically change the lock screen quote in OSX from a quotes file
 
-# Get this scripts directory: http://stackoverflow.com/a/246128/2521092
+# Get this script's directory: http://stackoverflow.com/a/246128/2521092
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 quotefile=$DIR/lockscreen_quotes.txt
 
-jo=$(shuf < $quotefile | head -n 1)
+qo=$(shuf < $quotefile | head -n 1)
+qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
 
-jo=$(echo "$jo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
-#echo $jo
-defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$jo"
+defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$qo"
