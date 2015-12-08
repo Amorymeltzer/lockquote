@@ -42,9 +42,9 @@
 "Minds are like swords, I do fear.  The old ones go to rust." - George R.R. Martin, A Game Of Thrones
 "There are no men like me.  There's only me." - George R.R. Martin, A Clash Of Kings
 "A reader lives a thousands lives before he dies.  The man who never reads lives only one." - George R.R. Martin, A Dance With Dragons
-"Sports communicate a code, a language of the emotions, and a tourist who skips the stadiums will not recoup his losses at Lincoln Center and Grant’s Tomb." - Wilfrid Sheen, New York Times
+"Sports communicate a code, a language of the emotions, and a tourist who skips the stadiums will not recoup his losses at Lincoln Center and Grant's Tomb." - Wilfrid Sheen, New York Times
 "No woman should drink a milkshake alone." - Matt Richtel, New York Times
-"Our nada who art in nada, nada be thy name thy kingdom nada thy will be nada in nada as it is in nada.  Give us this nada our daily nada and nada us our nada as we nada our nadas and nada us not into nada but deliver us from nada; pues nada.  Hail nothing full of nothing, nothing is with thee." - Ernest Hemingway, A Clean, Well-lighted Place
+"Our nada who art in nada, nada be thy name thy kingdom nada thy will be nada in nada as it is in nada.  Give us this nada our daily nada and nada us our nada as we nada our nadas and nada us not into nada but deliver us from nada; pues nada." - Ernest Hemingway, A Clean, Well-lighted Place
 "The Alps fill the mind with a kind of agreeable horror."
 "Everything's okay until it isn't."
 "I always turn to the sports pages first, which record people's accomplishments. The front page has nothing but man's failures." - Chief Justice Earl Warren
@@ -91,5 +91,8 @@
 "Freedom is mankind's elixir, even if a few turn it to poison." - John Updike
 "It is never wise to turn aside from knowing, however the knowing comes." - Mary Stewart, The Hollow Hills
 "You don't need people.  They're unreliable." - Jerry Seinfeld
+"Civilization begins with distillation." - William Faulkner
 "Non Frustra Signorum Obitus Speculamur et Ortus/Not in vain do we watch the setting and rising of the stars" - Virgil
 "The Swan doth love the water clear, And so does man good ale and beer." - Elsie Marley
+"[T]he rules of writing are like magic spells. If you never acquire them, then not using them says nothing." - xkcd
+"The valuables and debris of your life reach equal status at death. They are simply everything that's left behind." - Ben Shattuck
