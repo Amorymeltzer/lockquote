@@ -2,9 +2,17 @@
 # lock-quote by Amory Meltzer
 # Stochastically change the lock screen quote in OSX from a quotes file
 
-# Get this script's directory: http://stackoverflow.com/a/246128/2521092
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-quotefile=$DIR/lockscreen_quotes.txt
+while getopts 'f:' opt; do
+    case $opt in
+	f) quotefile=$OPTARG;;
+    esac
+done
+
+if [[ ! -e "$quotefile" ]]; then
+    # Get this script's directory: http://stackoverflow.com/a/246128/2521092
+    DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+    quotefile=$DIR/lockscreen_quotes.txt
+fi
 
 qo=$(shuf < $quotefile | head -n 1)
 qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
