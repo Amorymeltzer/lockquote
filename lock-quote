@@ -14,7 +14,14 @@ if [[ ! -e "$quotefile" ]]; then
     quotefile=$DIR/lockscreen_quotes.txt
 fi
 
-qo=$(shuf < $quotefile | head -n 1)
+# OSX doesn't have shuf, approximate it via perl
+# https://stackoverflow.com/a/6511327/2521092
+if [[ ! $(which shuf) ]]; then
+    function shuf() {
+	perl -MList::Util=shuffle -e 'print shuffle(<>);' "$@";
+    }
+fi
+qo=$(shuf < $quotefile | head -n 1 | tr -d '\n')
 qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
 
 defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$qo"
