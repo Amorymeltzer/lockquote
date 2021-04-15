@@ -4,21 +4,27 @@
 
 function help {
     cat <<END_HELP
-Usage: $(basename "$0") [-fhH]
+Usage: $(basename "$0") [-fsnhH]
 
   -f		Provide a path to a file of quotes, one per line.  Overrides LOCK_SCREEN_QUOTES.
-  -h -H		This help
+  -s		Show the current text used on the login/lock screen.  No sudo required.  Overrides -n.
+  -n		Show a quote but don't use it.  No sudo required.
+  -h -H		This help.
 END_HELP
 }
 
+# Set the quotes file
 # Default to using environment variable
 if [[ -n "$LOCK_SCREEN_QUOTES" ]]; then
     quotefile="$LOCK_SCREEN_QUOTES"
 fi
 
-while getopts 'f:hH' opt; do
+while getopts 'f:snhH' opt; do
     case $opt in
 	f) quotefile=$OPTARG;;
+	s) defaults read /Library/Preferences/com.apple.loginwindow.plist LoginwindowText
+	   exit 0;;
+	n) dryrun=1;;
 	h|H) help
 	     exit 0;;
 	*) printf "Invalid option provided, try %s -h\n" "$0" >&2
@@ -32,6 +38,7 @@ if [[ ! -e "$quotefile" ]]; then
     quotefile=$DIR/lockscreen_quotes.txt
 fi
 
+
 # OSX doesn't have shuf, approximate it via perl
 # https://stackoverflow.com/a/6511327/2521092
 if [[ ! $(command -v 2>/dev/null shuf) ]]; then
@@ -40,6 +47,11 @@ if [[ ! $(command -v 2>/dev/null shuf) ]]; then
     }
 fi
 qo=$(shuf "$quotefile" | head -n 1 | tr -d '\n')
-qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
+qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ']' '\n')
+
+if [[ -n "$dryrun" ]]; then
+    echo "$qo"
+    exit 0
+fi
 
 defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$qo"
