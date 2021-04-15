@@ -1,16 +1,34 @@
 #!/usr/bin/env bash
 # lock-quote by Amory Meltzer
-# Stochastically change the lock screen quote in OSX from a quotes file
+# Stochastically change the login/lock screen quote in OSX using a quotes file
 
-while getopts 'f:' opt; do
+function help {
+    cat <<END_HELP
+Usage: $(basename "$0") [-fhH]
+
+  -f		Provide a path to a file of quotes, one per line.  Overrides LOCK_SCREEN_QUOTES.
+  -h -H		This help
+END_HELP
+}
+
+# Default to using environment variable
+if [[ -n "$LOCK_SCREEN_QUOTES" ]]; then
+    quotefile="$LOCK_SCREEN_QUOTES"
+fi
+
+while getopts 'f:hH' opt; do
     case $opt in
 	f) quotefile=$OPTARG;;
+	h|H) help
+	     exit 0;;
+	*) printf "Invalid option provided, try %s -h\n" "$0" >&2
+	    exit 1;;
     esac
 done
 
 if [[ ! -e "$quotefile" ]]; then
     # Get this script's directory: http://stackoverflow.com/a/246128/2521092
-    DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+    DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
     quotefile=$DIR/lockscreen_quotes.txt
 fi
 
@@ -21,7 +39,7 @@ if [[ ! $(which shuf) ]]; then
 	perl -MList::Util=shuffle -e 'print shuffle(<>);' "$@";
     }
 fi
-qo=$(shuf < $quotefile | head -n 1 | tr -d '\n')
+qo=$(shuf "$quotefile" | head -n 1 | tr -d '\n')
 qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ] '\n')
 
 defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$qo"
