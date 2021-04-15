@@ -34,7 +34,7 @@ fi
 
 # OSX doesn't have shuf, approximate it via perl
 # https://stackoverflow.com/a/6511327/2521092
-if [[ ! $(which shuf) ]]; then
+if [[ ! $(command -v 2>/dev/null shuf) ]]; then
     function shuf() {
 	perl -MList::Util=shuffle -e 'print shuffle(<>);' "$@";
     }
