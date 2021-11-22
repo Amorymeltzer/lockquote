@@ -28,7 +28,7 @@ while getopts 'f:snhH' opt; do
 	h|H) help
 	     exit 0;;
 	*) printf "Invalid option provided, try %s -h\n" "$0" >&2
-	    exit 1;;
+	   exit 1;;
     esac
 done
 
@@ -39,19 +39,24 @@ if [[ ! -e "$quotefile" ]]; then
 fi
 
 
-# OSX doesn't have shuf, approximate it via perl
-# https://stackoverflow.com/a/6511327/2521092
-if [[ ! $(command -v 2>/dev/null shuf) ]]; then
-    function shuf() {
-	perl -MList::Util=shuffle -e 'print shuffle(<>);' "$@";
-    }
+shuf_command="shuf"
+# OSX doesn't have shuf, but coreutils installs gshuf
+if [[ ! $(command -v 2>/dev/null "$shuf_command") ]]; then
+    shuf_command="gshuf"
+    # If that doesn't exist, approximate it via perl
+    # https://stackoverflow.com/a/6511327/2521092
+    if [[ ! $(command -v 2>/dev/null "$shuf_command") ]]; then
+	function gshuf() {
+	    perl -MList::Util=shuffle -e 'print shuffle(<>);' "$@";
+	}
+    fi
 fi
-qo=$(shuf "$quotefile" | head -n 1 | tr -d '\n')
-qo=$(echo "$qo" | sed -Ee 's/\[|\]//g' | sed -e "s/\"//g" | sed -e 's/ - / \]- /' | tr ']' '\n')
+quote=$($shuf_command "$quotefile" | head -n 1 | tr -d '\n')
+quote=$(sed -Ee 's/\[|\]//g; s/\"//g; s/ - / \]- /' <<< "$quote" | tr ']' '\n')
 
 if [[ -n "$dryrun" ]]; then
-    echo "$qo"
+    echo "$quote"
     exit 0
 fi
 
-defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$qo"
+defaults write /Library/Preferences/com.apple.loginwindow.plist LoginwindowText "$quote"
