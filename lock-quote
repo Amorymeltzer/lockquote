@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # lock-quote by Amory Meltzer
-# Stochastically change the login/lock screen quote in OSX using a quotes file
+# Stochastically change the login/lock screen message in macOS using a quotes file
 
 function help {
     cat <<END_HELP
@@ -40,7 +40,7 @@ fi
 
 
 shuf_command="shuf"
-# OSX doesn't have shuf, but coreutils installs gshuf
+# macOS doesn't have shuf, but coreutils installs gshuf
 if [[ ! $(command -v 2>/dev/null "$shuf_command") ]]; then
     shuf_command="gshuf"
     # If that doesn't exist, approximate it via perl
