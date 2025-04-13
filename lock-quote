@@ -8,7 +8,7 @@ Usage: $(basename "$0") [-fsnhH]
 
   -f		Provide a path to a file of quotes, one per line.  Overrides LOCK_SCREEN_QUOTES.
   -s		Show the current text used on the login/lock screen.  No sudo required.  Overrides -n.
-  -n		Show a quote but don't use it.  No sudo required.
+  -n		Show a random quote but don't use it.  No sudo required.
   -h -H		This help.
 END_HELP
 }
