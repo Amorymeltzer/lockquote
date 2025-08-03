@@ -169,10 +169,18 @@ async function createWidget(items) {
 
   // Add spacer above content to center it vertically.
   widget.addSpacer()
-
+  
+  // Calculate font size based on quote length
+  let baseFontSize = 14
+  if (quoteText.length < 100) {
+    baseFontSize = 18  // Bigger for short quotes
+  } else if (quoteText.length < 200) {
+    baseFontSize = 16  // Medium for medium quotes
+  }
+  
   // Add the quote text
   let quoteElement = widget.addText(quoteText)
-  quoteElement.font = Font.boldSystemFont(14)
+  quoteElement.font = Font.boldSystemFont(baseFontSize)
   quoteElement.textColor = Color.white()
   quoteElement.minimumScaleFactor = 0.4
 
